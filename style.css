@@ -1,0 +1,19 @@
+pre {
+    background-color: #f6f8fa;
+    
+    
+}
+body {
+    display: flex;
+    
+}
+.Aboba {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Biba {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
