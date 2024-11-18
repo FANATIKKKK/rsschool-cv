@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 600;
+    font-style: normal;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.container1 {
+    margin: 100px 60px 20px ;
+}
+.container2 {
+    width: 430px;
+    height: 404px;
+    max-width: 430px;
+}
+.slider {
+    width: 1440px;
+    height: 488px;
+    padding: 60px 8px 60px 8px;
+    gap: 0px;
+}
+.gifts--section {
+    width: 1,440px;
+    height: 554px;
+    padding: 60px 8px 60px;
+    gap: 0px;
+}
+.gifts--shop {
+    width: 1,276px;
+    height: 342px;
+    gap: 12px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.gifts {
+    width: 310px;
+    height: 342px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: #ECF3F8;
+    ;
+}
+.color--text {
+    width: 310px;
+    height: 112px;
+    gap: 8px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+.color--text--h4 {
+    color: #4361FF;
+    padding: 20px 0px 8px 20px;
+}
+.color--text--h4g {
+    color: #06A44F;
+    padding: 20px 0px 8px 20px;
+}
+.color--text--h4p {
+    color: #FF43F7;
+    padding: 20px 0px 8px 20px;
+}
+.color--text--h3 {
+    color: #181C29;
+    padding: 0px 0px 0px 20px;
+}
+.timer {
+    background-image: url(image/santa\ and\ deer.png);
+    height: 100%;
+    max-width: 1440px;
+    max-height: 668px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: auto;
+}
+.time {
+    width: 426px;
+height:428px;
+max-width: 426px;
+padding: 60px 0px 60px 0px;
+gap: 20px;
+display: flex;
+justify-self: center;
+flex-direction: column;
+}
+.texth2 {
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 36.48px;
+letter-spacing: 0.16em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+.colorh2 {
+    color: #FFFFFF;
+}
+.timetoNY {
+    border-radius: 20px 20px 20px 20px;
+    width: 344px;
+height: 72px;
+padding: 8px 12px 12px 12px;
+gap: 0px;
+display: flex;
+justify-content: space-between;
+background-color: rgba(254, 254, 254, 0.4);
+
+}
+.raz {
+    width: 80px;
+height: 52px;
+gap: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+opacity: 1;
+color: #FFFFFF;
+position: relative;
+}
+.raz:after {
+    content:"";
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top:calc(50% - 10px);
+    background-color: #FFFFFF;
+
+}
+.raz:last-child:after {
+    content: none;
+}
+.daytime {
+    width: 426px;
+height: 104px;
+gap: 8px;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.backgroundAllSite {
+    background: var(--Primary, #FF4646);
+    width: 100%;
+    background-image: url(image/snowflakes.png);
+   
+}
+.menu {
+    background: #FFFFFF;
+    color: black;
+    width: 1440px;
+    height: 64px;
+    padding-left: 82px;
+    padding-right: 82px;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+line-height: 15.6px;
+letter-spacing: 0.05em;
+}
+.info {
+    color: #FFFFFF;
+}
+.info--info {
+    position: relative;
+}
+.info--info--title--button {
+    display: flex;
+    justify-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 150px;
+    right: 505px;
+    gap: 12px;
+}
+.hero {
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 20px 20px;
+    display: flex;
+}
+.radius {
+    border-radius: 20px;
+    flex-basis: 50%;
+}
+.hero h2 {
+    color:#FF4646;
+}
+.hero--info {
+    height: 328px;
+    padding: 60px 0px 60px 0px;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.hero--title {
+    text-align: start;
+}
+.hero--p {
+    max-width: 425px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+}
+
+header {
+    padding: 12px 0;
+}
+header .logo {
+    width: Hug (141px)px;
+    height: Hug (40px)px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.nav {
+    width: 1,123px;
+    height: 40px;
+}
+.nav_list {
+    width: 376px;
+    height: 40px;
+}
+.color--white {
+    color: #FFFFFF;
+    height: 72px;
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+header nav {
+    float: right;
+    width: 30%;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    display:  inline-block;
+}
+header nav ul li a {
+    color: black;
+}
+.btn {
+    background:#181C29;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    width: 235px;
+    height: 56px;
+    margin-left: 95px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .imageSnowflakes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .imageDecoration {
+    position: static;
+    top: 0;
+    left: 0;
+  }
+h1 {
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.18em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+h2 {
+font-family: Allura;
+font-size: 24px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.05em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+h4 {
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+line-height: 15.6px;
+letter-spacing: 0.05em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+h3 {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 24.32px;
+letter-spacing: 0.08em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
